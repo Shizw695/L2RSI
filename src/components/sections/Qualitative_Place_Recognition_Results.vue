@@ -1,5 +1,5 @@
 <script setup>
-import abstract from '../mds/method.mdx';
+import abstract from '../mds/Qualitative_Place_Recognition_Results.mdx';
 </script>
 
 <template>
