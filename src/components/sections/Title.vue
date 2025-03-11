@@ -96,7 +96,7 @@ const con_and_corresponding_author =
 const buttons = [
   {
     disabled: true,
-    name: "Paper (Arxiv)",
+    name: "Paper (arXiv)",
     link: "",
     component: Document,
   },
