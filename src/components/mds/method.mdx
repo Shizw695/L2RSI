@@ -1,5 +1,6 @@
+![](./img_framework_0307.jpg)
+
 # Method
 
 In the Data preprocessing module, on one hand, we perform semantic segmentation on remote sensing imagery, which are then evenly divided into submaps to serve as the semantic database. On the other hand, we conduct semantic segmentation on point cloud submaps, which are subsequently compressed into BEV images. During training, we learn representations of BEV images and remote sensing submaps within a shared semantic space to overcome the modality gap. During inference, we extract the global descriptor of the given query point cloud submap and retrieve a set of potential candidates from the semantic database. Then we apply DGMM-ProP to estimate the probability density of the current query position and refine these candidates.
 
-![](./img_framework_0307.jpg)
