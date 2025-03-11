@@ -20,6 +20,6 @@ export default {
   <Title/>
   <Abstract/>
   <Method/>
-  <Qualitative Place Recognition Results/>
+  <Qualitative_Place_Recognition_Results/>
   <BibTeX/>
 </template>
