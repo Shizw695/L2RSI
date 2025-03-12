@@ -16,4 +16,5 @@ import Qualitative_Place_Recognition_Results from '../mds/Qualitative_Place_Reco
 </template>
 
 <style scoped>
+  
 </style>
