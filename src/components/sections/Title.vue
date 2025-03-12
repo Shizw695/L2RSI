@@ -119,12 +119,12 @@ const buttons = [
       <el-col :span="24">
         <el-alert title="🔥 This template is still under development." type="success" />
       </el-col>
-    </el-row>
+    </el-row-->
 
     <!-- 文章logo -->
     <!--el-row v-if="logo" justify="center">
       <el-image :src="logo" class="logo" fit="cover" />
-    </el-row>
+    </el-row -->
 
     <!-- 文章标题 -->
     <el-row justify="center">
