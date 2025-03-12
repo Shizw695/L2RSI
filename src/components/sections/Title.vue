@@ -100,12 +100,12 @@ const buttons = [
     link: "",
     component: Document,
   },
-  //{
-   // disabled: false,
-    //name: "Code",
-    //link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
-    //component: Files,
-  //},
+  {
+    disabled: false,
+    name: "Code",
+    link: "",
+    component: Files,
+  },
   
 ]
 
