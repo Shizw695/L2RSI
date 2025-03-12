@@ -54,7 +54,7 @@ const authors = [
     address_flag: "1"
   },
   {
-    name: "Cheng Wa",
+    name: "Cheng Wan",
     icon: "",
     homepage: "",
     address_flag: "1"
