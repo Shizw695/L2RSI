@@ -65,9 +65,9 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Fujian Key Laboratory of Sensing and Computing for Smart Cities, Xiamen University",
+    name: "Xiamen University",
     icon: "",
-    homepage: "https://scsc.xmu.edu.cn/xstd.htm"
+    homepage: "https://asc.xmu.edu.cn/"
   },
   {
     address_flag: "2",
