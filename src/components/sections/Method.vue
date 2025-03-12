@@ -1,5 +1,5 @@
 <script setup>
-import abstract from '../mds/method.mdx';
+import method from '../mds/method.mdx';
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import abstract from '../mds/method.mdx';
 
     <el-row justify="center">
         <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
-            <abstract />
+            <method />
         </el-col>
     </el-row>
 

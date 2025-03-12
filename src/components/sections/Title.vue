@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = ''
 
 // 标题
 const title = 'L2RSI: Cross-view LiDAR-based Place Recognition for Large-scale Urban Scenes via Remote Sensing Imagery'
@@ -65,9 +65,9 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Fujian Key Laboratory of Sensing and Computing for Smart Cities, Xiamen University",
+    name: "Xiamen University",
     icon: "",
-    homepage: "https://scsc.xmu.edu.cn/xstd.htm"
+    homepage: "https://asc.xmu.edu.cn/"
   },
   {
     address_flag: "2",
@@ -95,17 +95,17 @@ const con_and_corresponding_author =
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper (arXiv)",
     link: "",
     component: Document,
   },
-  //{
-   // disabled: false,
-    //name: "Code",
-    //link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
-    //component: Files,
-  //},
+  {
+    disabled: false,
+    name: "Code",
+    link: "",
+    component: Files,
+  },
   
 ]
 
@@ -115,16 +115,16 @@ const buttons = [
   <div>
 
     <!-- 最新消息提示 -->
-    <el-row justify="center">
+    <!--el-row justify="center">
       <el-col :span="24">
         <el-alert title="🔥 This template is still under development." type="success" />
       </el-col>
-    </el-row>
+    </el-row-->
 
     <!-- 文章logo -->
-    <el-row v-if="logo" justify="center">
+    <!--el-row v-if="logo" justify="center">
       <el-image :src="logo" class="logo" fit="cover" />
-    </el-row>
+    </el-row -->
 
     <!-- 文章标题 -->
     <el-row justify="center">
