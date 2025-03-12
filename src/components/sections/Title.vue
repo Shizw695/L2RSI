@@ -95,7 +95,7 @@ const con_and_corresponding_author =
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper (arXiv)",
     link: "",
     component: Document,
