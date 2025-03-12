@@ -21,5 +21,12 @@ import Qualitative_Place_Recognition_Results from '../mds/Qualitative_Place_Reco
 </template>
 
 <style scoped>
+.video-container{
+  margin: 20px 0px 0px 0px;
+}
 
+iframe, video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
 </style>
