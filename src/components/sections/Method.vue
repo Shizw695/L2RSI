@@ -16,5 +16,7 @@ import method from '../mds/method.mdx';
 </template>
 
 <style scoped>
-
+.el-col {
+  text-align: justify;
+}
 </style>
