@@ -1,5 +1,5 @@
 <script setup>
-import abstract from '../mds/Qualitative_Place_Recognition_Results.mdx';
+import Qualitative_Place_Recognition_Results from '../mds/Qualitative_Place_Recognition_Results.mdx';
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import abstract from '../mds/Qualitative_Place_Recognition_Results.mdx';
 
     <el-row justify="center">
         <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
-            <abstract />
+            <Qualitative_Place_Recognition_Results />
         </el-col>
     </el-row>
 
