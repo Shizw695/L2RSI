@@ -10,7 +10,7 @@ import Qualitative_Place_Recognition_Results from '../mds/Qualitative_Place_Reco
         <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
             <Qualitative_Place_Recognition_Results />
             <el-container class="video-container">
-              <video controls muted preload playsinline>
+              <video width="600" controls>
                 <source src="/video/L2RSI_video_100km2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
