@@ -15,7 +15,7 @@
 
         <!-- local -->
         <el-container class="video-container">
-          <video controls muted preload playsinline loop>
+          <video controls muted preload playsinline loop autoplay>
             <source src="/video/L2RSI_video_100km2.mp4" type="video/mp4">
           </video>
         </el-container>
