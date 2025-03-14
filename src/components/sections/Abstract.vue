@@ -16,5 +16,7 @@ import abstract from '../mds/abstract.mdx';
 </template>
 
 <style scoped>
-
+.el-col {
+  text-align: justify;
+}
 </style>

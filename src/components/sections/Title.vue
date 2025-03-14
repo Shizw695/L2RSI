@@ -27,37 +27,37 @@ const authors = [
     name: "Ziwei Shi",
     icon: "",
     homepage: "https://Shizw695.github.io/",
-    address_flag: "1"
+    address_flag: "1, 2"
   },
   {
     name: "Xiaoran Zhang",
     icon: "",
-    homepage: "",
-    address_flag: "1"
+    //homepage: "",
+    address_flag: "1, 2"
   },
   {
     name: "Yan Xia",
     icon: "",
-    homepage: "",
-    address_flag: "2"
+    homepage: "https://yan-xia.github.io/",
+    address_flag: "3, 4"
   },
   {
     name: "Zang Yu",
     icon: "",
-    homepage: "",
-    address_flag: "1"
+    //homepage: "",
+    address_flag: "1, 2"
   },
   {
     name: "Siqi Shen",
     icon: "",
-    homepage: "",
-    address_flag: "1"
+    //homepage: "",
+    address_flag: "1, 2"
   },
   {
-    name: "Cheng Wa",
+    name: "Cheng Wan",
     icon: "",
-    homepage: "",
-    address_flag: "1"
+    //homepage: "",
+    address_flag: "1, 2"
   },
 ]
 
@@ -67,13 +67,25 @@ const addresses = [
     address_flag: "1",
     name: "Xiamen University",
     icon: "",
-    homepage: "https://asc.xmu.edu.cn/"
+    //homepage: ""
   },
   {
     address_flag: "2",
-    name: "",
+    name: "spAtial Sensing and Computing",
     icon: "",
-    homepage: ""
+    homepage: "https://asc.xmu.edu.cn/"
+  },
+  {
+    address_flag: "3",
+    name: "Technical University of Munich",
+    icon: "",
+    //homepage: ""
+  },
+  {
+    address_flag: "4",
+    name: "Munich Center for Machine Learning",
+    icon: "",
+    homepage: "https://mcml.ai/"
   },
 ]
 
