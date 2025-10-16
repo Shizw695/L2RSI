@@ -36,16 +36,22 @@ const authors = [
     address_flag: "1, 2"
   },
   {
+    name: "Wenjing Xu",
+    icon: "",
+    //homepage: "",
+    address_flag: "1, 2"
+  },
+  {
     name: "Yan Xia",
     icon: "",
     homepage: "https://yan-xia.github.io/",
-    address_flag: "3, 4"
+    address_flag: "3"
   },
   {
     name: "Zang Yu",
     icon: "",
     //homepage: "",
-    address_flag: "1, 2"
+    address_flag: "1, 2, *"
   },
   {
     name: "Siqi Shen",
@@ -77,15 +83,9 @@ const addresses = [
   },
   {
     address_flag: "3",
-    name: "Technical University of Munich",
+    name: "University of Science and Technology of China",
     icon: "",
     //homepage: ""
-  },
-  {
-    address_flag: "4",
-    name: "Munich Center for Machine Learning",
-    icon: "",
-    homepage: "https://mcml.ai/"
   },
 ]
 
