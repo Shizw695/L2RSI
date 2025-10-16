@@ -6,7 +6,7 @@
     <el-divider />
 
     <el-row justify="center">
-      <h1 class="section-title">Qualitative Place Recognition Results</h1>
+      <h1 class="section-title">🎥 Qualitative Place Recognition Results</h1>
     </el-row>
 
     <!-- 每个网站的视频的iframe可能不一致，最好在这里手动调整 -->
