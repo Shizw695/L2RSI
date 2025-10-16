@@ -2,6 +2,6 @@
 
 **Homepage**: https://shizw695.github.io/L2RSI/
 
-**Paper**: 
+**Paper**: https://arxiv.org/abs/2503.11245
 
-**Code**: 
+**Datasets**: https://shizw695.github.io/L2RSI/
