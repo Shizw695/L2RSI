@@ -16,7 +16,7 @@
         <!-- local -->
         <el-container class="video-container">
           <video controls muted preload playsinline loop autoplay>
-            <source src="/video/gitHub_vis_xa.mp4" type="video/mp4">
+            <source src="/video/github_vis_xa.mp4" type="video/mp4">
           </video>
         </el-container>
       </el-col>
