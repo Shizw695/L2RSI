@@ -1,6 +1,6 @@
 # 📦 Dataset Access Instructions
 ## 🛰️ Dataset Overview
-[**XA-L&RSI**] is a corss-modal dataset designed for research on LiDAR place recognition based on satellite imagery. The point cloud data was collected using Ouster OS1-64 LiDAR in Xiang'an District, Xiamen, with a trajectory mileage of approximately **100km**. The resolution of original satellite imagery is **0.5m**, processed into submaps of **60m x 60m**, with two-thirds overlap between adjacent submaps.
+[**XA-L&RSI**] is a corss-modal dataset designed for research on LiDAR place recognition based on satellite imagery. The point cloud data was collected using Ouster OS1-64 LiDAR in Xiang'an District, Xiamen, with a trajectory mileage of approximately **100km**. The resolution of original satellite imagery is **0.5m**, uniformly cropped into submaps of **60m x 60m**, with two-thirds overlap between adjacent submaps.
 
 The remote sensing submaps are divided into a training set and several testing sets of different scales (**4km², 9km², 16km² and 100km²**), enabling evaluation under varying retrieval ranges.
 For each submap, we provide the corresponding UTM coordinates.
@@ -8,4 +8,42 @@ For each submap, we provide the corresponding UTM coordinates.
 The LiDAR point clouds are divided into training and testing subsets, as detailed in the accompanying **readme.txt** file. 
 For each LiDAR frame, we provide the corresponding timestamp, UTM coordinates, and yaw angle, obtained from a high-precision RTK/INS system.
 
-[**Oxford-L&RSI**] 
+[**Oxford-L&RSI**] is an extension of the Oxford Radar RobotCar dataset. We supplement remote sensing images as a database (**2.8km²**). Provide only two sequences (11-14-02-26, 14-12-05-52) to verify the zero-shot generalization ability of the model. The preparation method of the data and the provided metadata are consistent with XA-L&RSI. 
+
+[**Kitti360-L&RSI**] is an extension of the Kitti360 dataset, which is an urban scene dataset consisting of $9$ sequences with a mileage of approximately **80km**, commonly used for 3D perception and localization. We associate each trajectory with corresponding remote sensing imagery. Contains six sequences for training (02, 03, 04, 05, 06, 07), one sequence for validation (00), and two sequences for testing (09, 10). The preparation method of the data and the provided metadata are consistent with XA-L&RSI. 
+
+## 🔑 Access Policy
+To ensure responsible use and proper tracking of dataset usage, **XA-L&RSI**, **Oxford-L&RSI** and **Kitti360-L&RSI** are released under an **application-based access policy**.
+
+Researchers who wish to use this dataset are required to send an email request to our team. After verification, we will provide download access.
+
+### 📧 How to Apply
+Please include the following information in your request:
+
+1. **Name and Affiliation/Organization**
+
+2. **Intended Use** (briefly describe your research purpose)
+
+3. **Dataset Name** (e.g., XA-L&RSI, Oxford-L&RSI, or Kitti360-L&RSI)
+
+4. **Personal / Lab Website**
+
+5. **Agreement to the License Agreement** — by sending the request email, you acknowledge that you have read and agreed to the terms.
+
+Send your request to:  
+✉️ **[shizw1995@stu.xmu.edu.cn]**  
+Subject: `[Dataset Access Request]-[Dataset Name]`
+
+## 📜 License Agreement
+
+Copyright Notice: ©2025 Xiamen University
+
+Xiamen University hereby grants to you a non-transferable, non-exclusive, royalty-free, non-commercial, non-clinical, not-for-use-with-human-subjects, research license to use the requested dataset (the “Dataset”). 
+You agree to include this license and the above copyright notice in all copies of the Dataset.
+The Dataset may not be distributed, shared, or transferred to any third party.
+This license does not grant any rights or licenses to any other patents, copyrights, or other forms of intellectual property owned or controlled by Xiamen University.
+
+YOU AGREE THAT THE DATASET PROVIDED HEREUNDER IS EXPERIMENTAL AND IS PROVIDED “AS IS”, WITHOUT ANY WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF ANY THIRD-PARTY PATENT, COPYRIGHT, OR ANY OTHER THIRD-PARTY RIGHT.
+IN NO EVENT SHALL THE CREATORS OF THE DATASET OR XIAMEN UNIVERSITY BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE DATASET, THE USE OF THE DATASET, OR THIS AGREEMENT, WHETHER IN BREACH OF CONTRACT, TORT OR OTHERWISE, EVEN IF SUCH PARTY IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+**By sending a dataset access request email, you acknowledge that you have read, understood, and agreed to the terms of this License Agreement.**
