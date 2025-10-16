@@ -1,3 +1,11 @@
 # 📦 Dataset Access Instructions
 ## 🛰️ Dataset Overview
-[XA_L&RSI] is a corss-modal dataset designed for research on LiDAR place recognition based on satellite imagery. The point cloud data was collected using Ouster OS1-64 LiDAR in Xiang'an District, Xiamen, with a trajectory mileage of approximately 100 kilometers.
+[**XA-L&RSI**] is a corss-modal dataset designed for research on LiDAR place recognition based on satellite imagery. The point cloud data was collected using Ouster OS1-64 LiDAR in Xiang'an District, Xiamen, with a trajectory mileage of approximately **100km**. The resolution of original satellite imagery is **0.5m**, processed into submaps of **60m x 60m**, with two-thirds overlap between adjacent submaps.
+
+The remote sensing submaps are divided into a training set and several testing sets of different scales (**4km², 9km², 16km² and 100km²**), enabling evaluation under varying retrieval ranges.
+For each submap, we provide the corresponding UTM coordinates.
+
+The LiDAR point clouds are divided into training and testing subsets, as detailed in the accompanying **readme.txt** file. 
+For each LiDAR frame, we provide the corresponding timestamp, UTM coordinates, and yaw angle, obtained from a high-precision RTK/INS system.
+
+[**Oxford-L&RSI**] 
