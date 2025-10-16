@@ -3,12 +3,12 @@ export default {
   data() {
     return {
       bibtex: [
-        //"@article{junyaohu2023template,",
-        //"    title={Academic Project Page Template Vue},",
-        //"    author={Hu, Junyao},",
-        //"    journal={GitHub},",
-        //"    year={2023}",
-        //"}",
+        @article{shi2025l2rsi,
+          title={L2RSI: Cross-view LiDAR-based Place Recognition for Large-scale Urban Scenes via Remote Sensing Imagery},
+          author={Shi, Ziwei and Zhang, Xiaoran and Xia, Yan and Zang, Yu and Shen, Siqi and Wang, Cheng},
+          journal={arXiv preprint arXiv:2503.11245},
+          year={2025}
+        },
       ],
     }
   },
