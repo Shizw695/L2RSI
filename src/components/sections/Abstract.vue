@@ -9,7 +9,7 @@ import abstract from '../mds/abstract.mdx';
     <el-row justify="center">
         <el-col :xs="24" :sm="20" :md="16" :lg="12" :xl="12">
             <img
-              src="/public/arxiv_introduction.jpg"
+              src="/public/introduction4.jpg"
               alt="Introduction"
               style="width: 100%; display: block; margin: 0 auto 20px auto;"
             />
