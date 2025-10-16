@@ -15,7 +15,7 @@ export default {
   methods: {
     copyVal() {
       let oInput = document.createElement('textarea');
-      let text = document.getElementById('📖 bibtex').innerText;
+      let text = document.getElementById('bibtex').innerText;
       oInput.value = text;
       document.body.appendChild(oInput);
       oInput.select();
@@ -33,7 +33,7 @@ export default {
     <el-divider />
       
       <el-row justify="center">
-        <h1 class="section-title">BibTeX</h1>
+        <h1 class="section-title">📖 BibTeX</h1>
       </el-row>
       
       <el-row justify="center">
