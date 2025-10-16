@@ -1,10 +1,2 @@
 # Method
-<div style="text-align:center; padding:50px;">
-    <h1 style="font-size: 18px;">This section is Under Construction</h1>
-    <div style="margin-top: 20px;">
-        <p>Loading...</p>
-        <div style="width: 100%; background-color: #f3f3f3;">
-            <div style="height: 20px; width: 50%; background-color: #4caf50;"></div>
-        </div>
-    </div>
-</div>
+In the Data preprocessing module, on one hand, we perform semantic segmentation on remote sensing imagery, which are then evenly divided into submaps to serve as the semantic database. On the other hand, we conduct semantic segmentation on point cloud submaps, which are subsequently compressed into BEV images. During training, we learn representations of BEV images and remote sensing submaps within a shared semantic space to overcome the modality gap. During inference, we extract the global descriptor of the given query point cloud submap and retrieve a set of potential candidates from the semantic database. Then we apply STPE to estimate the probability density of the current query position and refine these candidates.
