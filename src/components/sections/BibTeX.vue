@@ -15,7 +15,7 @@ export default {
   methods: {
     copyVal() {
       let oInput = document.createElement('textarea');
-      let text = document.getElementById('bibtex').innerText;
+      let text = document.getElementById('📖 bibtex').innerText;
       oInput.value = text;
       document.body.appendChild(oInput);
       oInput.select();
