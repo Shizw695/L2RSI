@@ -3,7 +3,7 @@ import method from '../mds/datasets.mdx';
 </script>
 
 <template>
-  <div>
+  <div id="datasets">
     <el-divider />
 
     <el-row justify="center">
